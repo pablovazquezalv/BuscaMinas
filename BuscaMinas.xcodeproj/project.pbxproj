@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		886A581229C217490036AFDC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886A581129C217490036AFDC /* AppDelegate.swift */; };
+		886A581429C217490036AFDC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886A581329C217490036AFDC /* SceneDelegate.swift */; };
+		886A581629C217490036AFDC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886A581529C217490036AFDC /* ViewController.swift */; };
+		886A581929C217490036AFDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 886A581729C217490036AFDC /* Main.storyboard */; };
+		886A581B29C2174A0036AFDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 886A581A29C2174A0036AFDC /* Assets.xcassets */; };
+		886A581E29C2174A0036AFDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 886A581C29C2174A0036AFDC /* LaunchScreen.storyboard */; };
+		886A582929C2174A0036AFDC /* BuscaMinasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886A582829C2174A0036AFDC /* BuscaMinasTests.swift */; };
+		886A583329C2174A0036AFDC /* BuscaMinasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886A583229C2174A0036AFDC /* BuscaMinasUITests.swift */; };
+		886A583529C2174A0036AFDC /* BuscaMinasUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886A583429C2174A0036AFDC /* BuscaMinasUITestsLaunchTests.swift */; };
+		886A584729C219EC0036AFDC /* kisspng-microsoft-minesweeper-the-minesweeper-puzzle-video-mines-5abee056d64556.3968232815224587108777 (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 886A584629C219EC0036AFDC /* kisspng-microsoft-minesweeper-the-minesweeper-puzzle-video-mines-5abee056d64556.3968232815224587108777 (1).png */; };
+		886A584929C21CB60036AFDC /* btnplay.png in Resources */ = {isa = PBXBuildFile; fileRef = 886A584829C21CB60036AFDC /* btnplay.png */; };
+		886A584B29C221000036AFDC /* records.png in Resources */ = {isa = PBXBuildFile; fileRef = 886A584A29C221000036AFDC /* records.png */; };
+		886A584D29C221BC0036AFDC /* BANNER.png in Resources */ = {isa = PBXBuildFile; fileRef = 886A584C29C221BC0036AFDC /* BANNER.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		886A582529C2174A0036AFDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 886A580629C217490036AFDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 886A580D29C217490036AFDC;
+			remoteInfo = BuscaMinas;
+		};
+		886A582F29C2174A0036AFDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 886A580629C217490036AFDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 886A580D29C217490036AFDC;
+			remoteInfo = BuscaMinas;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		886A580E29C217490036AFDC /* BuscaMinas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuscaMinas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		886A581129C217490036AFDC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		886A581329C217490036AFDC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		886A581529C217490036AFDC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		886A581829C217490036AFDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		886A581A29C2174A0036AFDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		886A581D29C2174A0036AFDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		886A581F29C2174A0036AFDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		886A582429C2174A0036AFDC /* BuscaMinasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuscaMinasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		886A582829C2174A0036AFDC /* BuscaMinasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuscaMinasTests.swift; sourceTree = "<group>"; };
+		886A582E29C2174A0036AFDC /* BuscaMinasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuscaMinasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		886A583229C2174A0036AFDC /* BuscaMinasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuscaMinasUITests.swift; sourceTree = "<group>"; };
+		886A583429C2174A0036AFDC /* BuscaMinasUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuscaMinasUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		886A584629C219EC0036AFDC /* kisspng-microsoft-minesweeper-the-minesweeper-puzzle-video-mines-5abee056d64556.3968232815224587108777 (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "kisspng-microsoft-minesweeper-the-minesweeper-puzzle-video-mines-5abee056d64556.3968232815224587108777 (1).png"; path = "../../../../../Downloads/kisspng-microsoft-minesweeper-the-minesweeper-puzzle-video-mines-5abee056d64556.3968232815224587108777 (1).png"; sourceTree = "<group>"; };
+		886A584829C21CB60036AFDC /* btnplay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btnplay.png; path = ../../../../../Downloads/btnplay.png; sourceTree = "<group>"; };
+		886A584A29C221000036AFDC /* records.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = records.png; path = ../../../../../Downloads/records.png; sourceTree = "<group>"; };
+		886A584C29C221BC0036AFDC /* BANNER.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BANNER.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		886A580B29C217490036AFDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		886A582129C2174A0036AFDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		886A582B29C2174A0036AFDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		886A580529C217490036AFDC = {
+			isa = PBXGroup;
+			children = (
+				886A581029C217490036AFDC /* BuscaMinas */,
+				886A582729C2174A0036AFDC /* BuscaMinasTests */,
+				886A583129C2174A0036AFDC /* BuscaMinasUITests */,
+				886A580F29C217490036AFDC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		886A580F29C217490036AFDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				886A580E29C217490036AFDC /* BuscaMinas.app */,
+				886A582429C2174A0036AFDC /* BuscaMinasTests.xctest */,
+				886A582E29C2174A0036AFDC /* BuscaMinasUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		886A581029C217490036AFDC /* BuscaMinas */ = {
+			isa = PBXGroup;
+			children = (
+				886A581129C217490036AFDC /* AppDelegate.swift */,
+				886A581329C217490036AFDC /* SceneDelegate.swift */,
+				886A581529C217490036AFDC /* ViewController.swift */,
+				886A581729C217490036AFDC /* Main.storyboard */,
+				886A581A29C2174A0036AFDC /* Assets.xcassets */,
+				886A584129C2182D0036AFDC /* Imagenes */,
+				886A581C29C2174A0036AFDC /* LaunchScreen.storyboard */,
+				886A581F29C2174A0036AFDC /* Info.plist */,
+			);
+			path = BuscaMinas;
+			sourceTree = "<group>";
+		};
+		886A582729C2174A0036AFDC /* BuscaMinasTests */ = {
+			isa = PBXGroup;
+			children = (
+				886A582829C2174A0036AFDC /* BuscaMinasTests.swift */,
+			);
+			path = BuscaMinasTests;
+			sourceTree = "<group>";
+		};
+		886A583129C2174A0036AFDC /* BuscaMinasUITests */ = {
+			isa = PBXGroup;
+			children = (
+				886A583229C2174A0036AFDC /* BuscaMinasUITests.swift */,
+				886A583429C2174A0036AFDC /* BuscaMinasUITestsLaunchTests.swift */,
+			);
+			path = BuscaMinasUITests;
+			sourceTree = "<group>";
+		};
+		886A584129C2182D0036AFDC /* Imagenes */ = {
+			isa = PBXGroup;
+			children = (
+				886A584C29C221BC0036AFDC /* BANNER.png */,
+				886A584A29C221000036AFDC /* records.png */,
+				886A584829C21CB60036AFDC /* btnplay.png */,
+				886A584629C219EC0036AFDC /* kisspng-microsoft-minesweeper-the-minesweeper-puzzle-video-mines-5abee056d64556.3968232815224587108777 (1).png */,
+			);
+			path = Imagenes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		886A580D29C217490036AFDC /* BuscaMinas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 886A583829C2174A0036AFDC /* Build configuration list for PBXNativeTarget "BuscaMinas" */;
+			buildPhases = (
+				886A580A29C217490036AFDC /* Sources */,
+				886A580B29C217490036AFDC /* Frameworks */,
+				886A580C29C217490036AFDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BuscaMinas;
+			productName = BuscaMinas;
+			productReference = 886A580E29C217490036AFDC /* BuscaMinas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		886A582329C2174A0036AFDC /* BuscaMinasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 886A583B29C2174A0036AFDC /* Build configuration list for PBXNativeTarget "BuscaMinasTests" */;
+			buildPhases = (
+				886A582029C2174A0036AFDC /* Sources */,
+				886A582129C2174A0036AFDC /* Frameworks */,
+				886A582229C2174A0036AFDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				886A582629C2174A0036AFDC /* PBXTargetDependency */,
+			);
+			name = BuscaMinasTests;
+			productName = BuscaMinasTests;
+			productReference = 886A582429C2174A0036AFDC /* BuscaMinasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		886A582D29C2174A0036AFDC /* BuscaMinasUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 886A583E29C2174A0036AFDC /* Build configuration list for PBXNativeTarget "BuscaMinasUITests" */;
+			buildPhases = (
+				886A582A29C2174A0036AFDC /* Sources */,
+				886A582B29C2174A0036AFDC /* Frameworks */,
+				886A582C29C2174A0036AFDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				886A583029C2174A0036AFDC /* PBXTargetDependency */,
+			);
+			name = BuscaMinasUITests;
+			productName = BuscaMinasUITests;
+			productReference = 886A582E29C2174A0036AFDC /* BuscaMinasUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		886A580629C217490036AFDC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					886A580D29C217490036AFDC = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					886A582329C2174A0036AFDC = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 886A580D29C217490036AFDC;
+					};
+					886A582D29C2174A0036AFDC = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 886A580D29C217490036AFDC;
+					};
+				};
+			};
+			buildConfigurationList = 886A580929C217490036AFDC /* Build configuration list for PBXProject "BuscaMinas" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 886A580529C217490036AFDC;
+			productRefGroup = 886A580F29C217490036AFDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				886A580D29C217490036AFDC /* BuscaMinas */,
+				886A582329C2174A0036AFDC /* BuscaMinasTests */,
+				886A582D29C2174A0036AFDC /* BuscaMinasUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		886A580C29C217490036AFDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				886A584B29C221000036AFDC /* records.png in Resources */,
+				886A584D29C221BC0036AFDC /* BANNER.png in Resources */,
+				886A581E29C2174A0036AFDC /* LaunchScreen.storyboard in Resources */,
+				886A581B29C2174A0036AFDC /* Assets.xcassets in Resources */,
+				886A584929C21CB60036AFDC /* btnplay.png in Resources */,
+				886A584729C219EC0036AFDC /* kisspng-microsoft-minesweeper-the-minesweeper-puzzle-video-mines-5abee056d64556.3968232815224587108777 (1).png in Resources */,
+				886A581929C217490036AFDC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		886A582229C2174A0036AFDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		886A582C29C2174A0036AFDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		886A580A29C217490036AFDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				886A581629C217490036AFDC /* ViewController.swift in Sources */,
+				886A581229C217490036AFDC /* AppDelegate.swift in Sources */,
+				886A581429C217490036AFDC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		886A582029C2174A0036AFDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				886A582929C2174A0036AFDC /* BuscaMinasTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		886A582A29C2174A0036AFDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				886A583529C2174A0036AFDC /* BuscaMinasUITestsLaunchTests.swift in Sources */,
+				886A583329C2174A0036AFDC /* BuscaMinasUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		886A582629C2174A0036AFDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 886A580D29C217490036AFDC /* BuscaMinas */;
+			targetProxy = 886A582529C2174A0036AFDC /* PBXContainerItemProxy */;
+		};
+		886A583029C2174A0036AFDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 886A580D29C217490036AFDC /* BuscaMinas */;
+			targetProxy = 886A582F29C2174A0036AFDC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		886A581729C217490036AFDC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				886A581829C217490036AFDC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		886A581C29C2174A0036AFDC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				886A581D29C2174A0036AFDC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		886A583629C2174A0036AFDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		886A583729C2174A0036AFDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		886A583929C2174A0036AFDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BuscaMinas/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Pablo.BuscaMinas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		886A583A29C2174A0036AFDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BuscaMinas/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Pablo.BuscaMinas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		886A583C29C2174A0036AFDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Pablo.BuscaMinasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BuscaMinas.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BuscaMinas";
+			};
+			name = Debug;
+		};
+		886A583D29C2174A0036AFDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Pablo.BuscaMinasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BuscaMinas.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BuscaMinas";
+			};
+			name = Release;
+		};
+		886A583F29C2174A0036AFDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Pablo.BuscaMinasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BuscaMinas;
+			};
+			name = Debug;
+		};
+		886A584029C2174A0036AFDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Pablo.BuscaMinasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BuscaMinas;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		886A580929C217490036AFDC /* Build configuration list for PBXProject "BuscaMinas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				886A583629C2174A0036AFDC /* Debug */,
+				886A583729C2174A0036AFDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		886A583829C2174A0036AFDC /* Build configuration list for PBXNativeTarget "BuscaMinas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				886A583929C2174A0036AFDC /* Debug */,
+				886A583A29C2174A0036AFDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		886A583B29C2174A0036AFDC /* Build configuration list for PBXNativeTarget "BuscaMinasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				886A583C29C2174A0036AFDC /* Debug */,
+				886A583D29C2174A0036AFDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		886A583E29C2174A0036AFDC /* Build configuration list for PBXNativeTarget "BuscaMinasUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				886A583F29C2174A0036AFDC /* Debug */,
+				886A584029C2174A0036AFDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 886A580629C217490036AFDC /* Project object */;
+}
